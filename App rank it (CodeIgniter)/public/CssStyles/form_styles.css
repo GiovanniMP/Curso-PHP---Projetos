@@ -1,0 +1,46 @@
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+background-color: transparent !important;
+}
+input:-webkit-autofill{
+-webkit-text-fill-color: black !important;
+}
+.ff{
+    font-family:fantasy;
+    font-size: 20px !important;
+}
+.fflg{
+    font-family:fantasy;
+    font-size: 25px !important;
+}
+.ffxl{
+    font-family: fantasy;
+    font-size: 35px !important;
+}
+.scolor{
+    color: #9146FF;
+}
+.icon{
+    margin-left: 5px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link{
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.backgroundHome{
+    background: rgb(145,70,255);
+    background: linear-gradient(90deg, rgba(145,70,255,1) 0%, rgba(62,6,95,1) 100%);
+}
